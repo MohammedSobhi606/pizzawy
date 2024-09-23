@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar{
+    display: none;
+}
+@media (max-width:640px) {
+    a.active{
+        background-color: black;
+        color: white;
+    border-radius: 20px;
+    padding:2px 5px;
+   
+    }
+}
